@@ -9,7 +9,7 @@ which has many meaning keep this for as disclaimer but if you feel your code is 
 
 according to which, 
 if you have openSourced your codes, 
-I a trying to lean from interest
+I am trying to learn from interest
 Thank you and all credits to you!!!!
 
 or the Creators including
