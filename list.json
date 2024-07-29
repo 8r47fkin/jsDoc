@@ -5,39 +5,41 @@
 		"Introduction": {
 
 			"Introduction to Javascript": {
-				"Introduction to Javascript": "api/en/introduction/javaScript",
-				"Core Javascript": "api/en/introduction/coreJavaScript",
-				"Client-Side Javascript": "api/en/introduction/clientSideJavaScript"
-			}
-		},
-
-		"Core Javascript": {
+				"Introduction to Javascript": "api/en/introduction/index",
+				"Exploring Javascript": "api/en/introduction/exploringJavaScript",
+				"Hello World": "api/en/introduction/helloWorld",
+				"A Tour of JavaScript": "api/en/introduction/jsTour",
+				"Example: Character Frequency Histograms": "api/en/introduction/example",
+				"Summary": "api/en/introduction/summary"
+			},
 
 			"Lexical Structure": {
-                "Lexical Structure": "api/en/core/lexicalStructure/lexicalStructure",
-				"Character Set": "api/en/core/lexicalStructure/characterSet",
+                "Lexical Structure": "api/en/core/lexicalStructure/index",
+				"The Text of a JavaScript Program": "api/en/core/lexicalStructure/textJSP",
 				"Comments": "api/en/core/lexicalStructure/comments",
 				"Literals": "api/en/core/lexicalStructure/literals",
 				"Identifiers and Reserved Words": "api/en/core/lexicalStructure/identifiersReservedWords",
-				"Optional Semicolons": "api/en/core/lexicalStructure/optionalSemicolons"
+				"Unicode": "api/en/core/lexicalStructure/unicode",
+				"Optional Semicolons": "api/en/core/lexicalStructure/optionalSemicolons",
+				"Summary": "api/en/core/lexicalStructure/summary"
 			},
 
 			"Types, Values and Variables": {
-                "Types, Values and Variables": "api/en/core/typesValuesVariables/typesValuesVariables",
+                "Overview and Definitions": "api/en/core/typesValuesVariables/index",
 				"Numbers": "api/en/core/typesValuesVariables/numbers",
 				"Text": "api/en/core/typesValuesVariables/text",
 				"Boolean Values": "api/en/core/typesValuesVariables/booleanValues",
 				"null and undefined": "api/en/core/typesValuesVariables/nullUndefined",
+				"Symbols": "api/en/core/typesValuesVariables/symbols",
 				"The Global Object": "api/en/core/typesValuesVariables/globalObjects",
-				"Wrapper Objects": "api/en/core/typesValuesVariables/wrapperObjects",
 				"Immutable Primitive Values and Mutable Object References": "api/en/core/typesValuesVariables/immutablePrimitiveValuesMOR",
 				"Type Conversions": "api/en/core/typesValuesVariables/typeConversions",
 				"Variable Declaration": "api/en/core/typesValuesVariables/variableDeclaration",
-				"Variable Scope": "api/en/core/typesValuesVariables/variableScope"
+				"Summary": "api/en/core/typesValuesVariables/summary"
 			},
 
 			"Expressions and Operators": {
-                "Expressions and Operators": "api/en/core/expressionsOperators/expressionsOperators",
+                "Expressions and Operators": "api/en/core/expressionsOperators/index",
 				"Primary Expressions": "api/en/core/expressionsOperators/primaryExpressions",
 				"Object and Array Initializers": "api/en/core/expressionsOperators/objectArrayInitializers",
 				"Function Definition Expressions": "api/en/core/expressionsOperators/functionDefinitionExpressions",
@@ -50,37 +52,38 @@
 				"Logical Expressions": "api/en/core/expressionsOperators/logicalExpressions",
 				"Assignment Expressions": "api/en/core/expressionsOperators/assignmentExpressions",
 				"Evaluation Expressions": "api/en/core/expressionsOperators/evaluationExpressions",
-				"Miscellaneious Operators": "api/en/core/expressionsOperators/miscellaneiousOperators"
+				"Miscellaneious Operators": "api/en/core/expressionsOperators/miscellaneiousOperators",
+				"Summary": "api/en/core/expressionsOperators/summary"
 			},
 
 			"Statements": {
-				"Statements": "api/en/core/statements/statements",
+				"Statements": "api/en/core/statements/index",
 				"Expression Statements": "api/en/core/statements/expressionStatements",
 				"Compound and Empty Statements": "api/en/core/statements/compoundEmptyStatements",
-				"Declaration Statements": "api/en/core/statements/declarationStatements",
 				"Conditions": "api/en/core/statements/conditions",
 				"Loops": "api/en/core/statements/loops",
 				"Jumps": "api/en/core/statements/jumps",
 				"Miscellaneious Statements": "api/en/core/statements/miscellaneiousStatements",
+				"Declarations": "api/en/core/statements/miscellaneiousStatements",
 				"Summary of Javascript Statements": "api/en/core/statements/summary"
 			},
 
 			"Objects": {
-				"Objects": "api/en/core/objects/objects",
+				"Objects": "api/en/core/objects/index",
 				"Creating Objects": "api/en/core/objects/creatingObjects",
 				"Querying and Setting Properties": "api/en/core/objects/queryingSettingProperties",
 				"Deleting Properties": "api/en/core/objects/deletingProperties",
 				"Testing Properties": "api/en/core/objects/testingProperties",
 				"Enumerating Properties": "api/en/core/objects/enumeratingProperties",
-				"Property Getters and Setters": "api/en/core/objects/propertyGettersSetters",
-				"Property Attributes": "api/en/core/objects/propertyAttributes",
-				"Object Attributes": "api/en/core/objects/objectAttributes",
+				"Extending Objects": "api/en/core/objects/extendingObjects",
 				"Serializing Objects": "api/en/core/objects/serializingObjects",
-				"Object Methods": "api/en/core/objects/objectMethods"
+				"Object Methods": "api/en/core/objects/objectMethods",
+				"Extend Object Literal Syntax": "api/en/core/objects/objectMethods",
+				"Summary": "api/en/core/objects/summary"
 			},
 
 			"Arrays": {
-				"Arrays": "api/en/core/arrays/arrays",
+				"Arrays": "api/en/core/arrays/index",
 				"Creating Arrays": "api/en/core/arrays/creatingArrays",
 				"Reading and Writing Array Elements": "api/en/core/arrays/readingWritingArrayElements",
 				"Sparse Arrays": "api/en/core/arrays/sparseArrays",
@@ -89,59 +92,72 @@
 				"Iterating Arrays": "api/en/core/arrays/iteratingArrays",
 				"Multidimensional Arrays": "api/en/core/arrays/multidimensionalArrays",
 				"Array Methods": "api/en/core/arrays/arrayMethods",
-				"EcmaScript Array Methods": "api/en/core/arrays/ecmaScriptArrayMethods",
-				"Array Type": "api/en/core/arrays/arrayType",
 				"Array-Like Objects": "api/en/core/arrays/arrayLikeObjects",
-				"Strings as Arrays": "api/en/core/arrays/stringsAsArrays"
+				"Strings as Arrays": "api/en/core/arrays/stringsAsArrays",
+				"Summary": "api/en/core/arrays/summary"
 			},
 
 			"Functions": {
-				"Functions": "api/en/core/functions/functions",
+				"Functions": "api/en/core/functions/index",
 				"Defining Functions": "api/en/core/functions/definingFunctions",
 				"Invoking Functions": "api/en/core/functions/invokingFunctions",
 				"Function Arguments and Parameters": "api/en/core/functions/functionArgumentsParameters",
-				"Functions as Values": "api/en/core/functions/functionsValues",
+				"Functions as Values": "api/en/core/functions/functionsasValues",
 				"Functions as Namespaces": "api/en/core/functions/functionsNamespaces",
 				"Closures": "api/en/core/functions/closures",
 				"Function Properties, Method and Constructor": "api/en/core/functions/functionPropertyMethodConstructor",
-				"Functional Programming": "api/en/core/functions/functionalProgramming"
+				"Functional Programming": "api/en/core/functions/functionalProgramming",
+				"Summary": "api/en/core/functions/summary"
 			},
 
-			"Classes and Modules": {
-				"Classes and Modules": "api/en/core/classesModules/classesModules",
-				"Classes and Prototypes": "api/en/core/classesModules/classesPrototypes",
-				"Classes and Constructors": "api/en/core/classesModules/classesConstructors",
-				"Java-Style Classes in Javascript": "api/en/core/classesModules/javaStyleClassesInJS",
-				"Augmenting Classes": "api/en/core/classesModules/augmentingClasses",
-				"Classes and Types": "api/en/core/classesModules/classesTypes",
-				"Object-Oriented Techniques in Javascript": "api/en/core/classesModules/objectOrientedTechniquesJS",
-				"Subclasses": "api/en/core/classesModules/subClasses",
-				"Classes in ECMAScript": "api/en/core/classesModules/classesEcmaScript",
-				"Modules": "api/en/core/classesModules/modules"
+			"Classes": {
+				"Classes": "api/en/core/classes/index",
+				"Classes and Prototypes": "api/en/core/classes/classesPrototypes",
+				"Classes and Constructors": "api/en/core/classes/classesConstructors",
+				"Classes with the class Keyword": "api/en/core/classes/classKeyword",
+				"Adding Methods to Existing Classes": "api/en/core/classes/addingMethodstoClasses",
+				"Subclasses": "api/en/core/classes/subClasses",
+				"Summary": "api/en/core/classes/summary"
 			},
 
-			"Pattern Matching and Regular Expressions": {
-				"Pattern Matching and Regular Expressions": "api/en/core/patternMatchingRegularExpressions/patternMatchingRegularExpressions",
-				"Defining Regular Expressions": "api/en/core/patternMatchingRegularExpressions/definingRegularExpressions",
-				"String Methods for Pattern Matching": "api/en/core/patternMatchingRegularExpressions/stringMethodsPatternMatching",
-				"The RegExp Object": "api/en/core/patternMatchingRegularExpressions/regExpObject"
+			"Modules": {
+				"Modules": "api/en/core/modules/index",
+				"Modules with Classes, Objects and Closures": "api/en/core/modules/withClassesObjectsAndClosures",
+				"Modules in Node": "api/en/core/modules/inNode",
+				"Modules in ES6": "api/en/core/modules/inES6",
+				"Summary": "api/en/core/modules/summary"
 			},
 
-			"Javascript Subsets and Extensions": {
-				"Javascript Subsets and Extensions": "api/en/core/jsSubsetsExtensions/jsSubsetsExtensions",
-				"Javascript Subsets": "api/en/core/jsSubsetsExtensions/jsSubsets",
-				"Constant and Scoped Variables": "api/en/core/jsSubsetsExtensions/constantScopedVariables",
-				"Destructuring Assignment": "api/en/core/jsSubsetsExtensions/destructuringAssignment",
-				"Iteration": "api/en/core/jsSubsetsExtensions/iteration",
-				"Shorthand Functions": "api/en/core/jsSubsetsExtensions/shorthandFunctions",
-				"Multiple Catch Clauses": "api/en/core/jsSubsetsExtensions/multipleCatchClauses",
-				"E4X: ECMAScript XML": "api/en/core/jsSubsetsExtensions/e4x"
+			"The JavaScript Standard Library": {
+				"JS Standard Library": "api/en/core/jsSL/index",
+				"Sets and Maps": "api/en/core/jsSL/setsAndMaps",
+				"Typed Arrays and Binary Data": "api/en/core/jsSL/typedArrayAndBinaryData",
+				"Pattern Matching with Regular Expression": "api/en/core/jsSL/patternMatchingRegularExpressions",
+				"Dates and Times": "api/en/core/jsSL/datesAndTimes",
+				"Error Classes": "api/en/core/jsSL/errorClasses",
+				"JSON Serialization and Parsing": "api/en/core/jsSL/jsonSerialization",
+				"The Internationalization API": "api/en/core/jsSL/internationalizationAPI",
+				"The Console API": "api/en/core/jsSL/consoleApi",
+				"URL APIs": "api/en/core/jsSL/urlAPIs",
+				"Timers": "api/en/core/jsSL/timers",
+				"Summary": "api/en/core/jsSL/summary"
 			},
 
-			"Server-side Javascript": {
-				"Server-side Javascript": "api/en/core/serverSideJavaScript/serverSideJavaScript",
-				"Scripting Java with Rhino": "api/en/core/serverSideJavaScript/scriptingJavaWithRhino",
-				"Asynchronous I/O with Node": "api/en/core/serverSideJavaScript/asynchronousIONode"
+			"Iterators and Generators": {
+				"Iterators and Generators": "api/en/core/iteratorsAndGenerators/index",
+				"How Iterators Work": "api/en/core/iteratorsAndGenerators/how-iterators-work",
+				"Implementing Iterable Objects": "api/en/core/iteratorsAndGenerators/implementing-iterable-objects",
+				"Generators": "api/en/core/iteratorsAndGenerators/generators",
+				"Advanced Generator Features": "api/en/core/iteratorsAndGenerators/advanced-generator-features",
+				"Summary": "api/en/core/iteratorsAndGenerators/summary"
+			},
+
+			"Aynchoronous Javascript": {
+				"Aynchoronous Javascript": "api/en/core/asynchronous-js/index",
+				"Asynchronous Programming with Callbacks": "api/en/core/asynchronous-js/withCallbacks",
+				"Server-side Javascript": "api/en/core/asynchronous-js/serverSideJavaScript",
+				"Scripting Java with Rhino": "api/en/core/asynchronous-js/scriptingJavaWithRhino",
+				"Asynchronous I/O with Node": "api/en/core/asynchronous-js/asynchronousIONode"
 			}
 
 		},
