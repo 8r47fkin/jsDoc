@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<base href="../../../../" />
+		<script src="page.js"></script>
+		<link type="text/css" rel="stylesheet" href="page.css" />
+	</head>
+	<body>
+		<h1>Hello World</h1>
+        <br>
+        <p>
+            When you are ready to start experimenting with longer chunks of code, these line-by line 
+            interactive environments may no longer be suitable, and you will probably prefer
+            to write your code in a text editor. From there, you can copy and paste to the JavaScript 
+            console or into a Node session. Or you can save your code to a file (the traditional filename 
+            extension for JavaScript code is .js) and then run that file of JavaScript
+            code with Node:
+        </p>
+        <code>
+            $ node snippet.js
+        </code>
+        <p>
+            If you use Node in a noninteractive manner like this, it won’t automatically print out
+            the value of all the code you run, so you’ll have to do that yourself. You can use the
+            function console.log() to display text and other JavaScript values in your terminal
+            window or in a browser’s developer tools console. So, for example, if you create a
+            hello.js file containing this line of code:
+        <code>
+            console.log("Hello World!");
+        </code>
+        and execute the file with node hello.js, you’ll see the message “Hello World!”
+        printed out.
+        </p>
+        <p>
+            If you want to see that same message printed out in the JavaScript console of a web
+            browser, create a new file named hello.html, and put this text in it:
+            <code>
+               <xmp>script src="hello.js"> /script</xmp> 
+            </code>
+            Then load hello.html into your web browser using a file:// URL like this one:
+            <code>
+                file:///Users/username/javascript/hello.html
+            </code>
+            Open the developer tools window to see the greeting in the console.
+        </p>
+
+		<p>
+			<br>
+            <ul>
+                <li>[link:#api/en/js/introduction/tour-of-javascript A Tour of JavaScript]</li>
+                <li>[link:#api/en/js/introduction/example Example Character Frequency Histograms]</li>
+                <li>[link:#api/en/js/introduction/summary Summary]</li>
+            </ul>   
+		</p>
+
+		<h2>Next Steps</h2>
+		<p>
+			Time for [link:#api/en/js/lexical-structure/index Lexical Structure].
+		</p>
+	</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<base href="../../../../" />
+		<script src="page.js"></script>
+		<link type="text/css" rel="stylesheet" href="page.css" />
+	</head>
+	<body>
+		<h1>Exploring JavaScript</h1>
+        <br>
+        <p>
+            When learning a new programming language, it’s important to try the examples in
+            the book, then modify them and try them again to test your understanding of the language. 
+            To do that, you need a JavaScript interpreter.
+        </p>
+        <p>
+            The easiest way to try out a few lines of JavaScript is to open up the web developer
+            tools in your web browser (with F12, Ctrl-Shift-I, or Command-Option-I) and select
+            the Console tab. You can then type code at the prompt and see the results as you type.
+            Browser developer tools often appear as panes at the bottom or right of the browser
+            window, but you can usually detach them as separate windows (as pictured in
+            Figure 1-1), which is often quite convenient.
+        </p>
+        <p>
+            Another way to try out JavaScript code is to download and install Node from https://
+            nodejs.org. Once Node is installed on your system, you can simply open a Terminal
+            window and type node to begin an interactive JavaScript session like this one:
+        </p>
+
+        <code>
+            $ node
+            Welcome to Node.js v12.13.0.
+            Type ".help" for more information.
+            > .help
+            .break Sometimes you get stuck, this gets you out
+            .clear Alias for .break
+            .editor Enter editor mode
+            .exit Exit the repl
+            .help Print this help message
+            .load Load JS from a file into the REPL session
+            .save Save all evaluated commands in this REPL session to a file
+            Press ^C to abort current expression, ^D to exit the repl
+            > let x = 2, y = 3;
+            undefined
+            > x + y
+            5
+            > (x === 2) && (y === 3)
+            true
+            > (x > 3) || (y < 3)
+            false
+        </code>
+
+		<p>
+			<br>
+            <ul>
+                <li>[link:#api/en/js/introduction/hello-world Hello World]</li>
+                <li>[link:#api/en/js/introduction/tour-of-javascript A Tour of JavaScript]</li>
+                <li>[link:#api/en/js/introduction/example Example Character Frequency Histograms]</li>
+                <li>[link:#api/en/js/introduction/summary Summary]</li>
+            </ul>   
+		</p>
+
+		<h2>Next Steps</h2>
+		<p>
+			Time for [link:#api/en/js/lexical-structure/index Lexical Structure].
+		</p>
+	</body>
+</html>
